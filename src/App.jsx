@@ -1,10 +1,23 @@
 import React from "react";
 import "./App.css";
+import Home from "./pages/Home/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <div className="app">
-      <h1>Google Clone App</h1>
+      <Router>
+        <Switch>
+          {/* SEARCH PAGE */}
+          <Route path="/search">
+            <h1>Search</h1>
+          </Route>
+          {/* HOME PAGE */}
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 };
