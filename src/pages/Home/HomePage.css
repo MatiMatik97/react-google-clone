@@ -1,46 +1,46 @@
-.home {
+.homePage {
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
-.home__header {
+.homePage__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
 }
 
-.home__header a {
+.homePage__header a {
     margin: 0px 10px;
     color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
     font-size: 15px;
 }
 
-.home__header a:hover {
+.homePage__header a:hover {
     text-decoration: underline;
 }
 
-.home__headerRight {
+.homePage__headerRight {
     display: flex;
     align-items: center;
     min-width: 13vw;
     justify-content: space-between;
 }
 
-.home__headerRight>.MuiSvgIcon-root {
+.homePage__headerRight>.MuiSvgIcon-root {
     margin-right: 20px;
 }
 
-.home__body {
+.homePage__body {
     flex: 1;
     display: flex;
     margin-top: 10%;
     flex-direction: column;
 }
 
-.home__body>img {
+.homePage__body>img {
     height: 100px;
     object-fit: contain;
 }
