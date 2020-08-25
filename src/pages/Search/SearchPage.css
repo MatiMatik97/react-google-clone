@@ -1,0 +1,47 @@
+.searchPage__header {
+    display: flex;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    background-color: #f3f3f3;
+}
+
+.searchPage__logo {
+    height: 50px;
+    object-fit: contain;
+    margin-right: 50px;
+}
+
+.searchPage__headerBody {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchPage__headerTop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchPage__headerTop>.search>.search__input {
+    margin-top: 0;
+    margin-bottom: -30px;
+    max-width: 800px;
+}
+
+.searchPage__headerIcons {
+    display: flex;
+    align-items: center;
+    min-width: 5vw;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.searchPage__headerIcons>.MuiSvgIcon-root {
+    margin-right: 20px;
+}

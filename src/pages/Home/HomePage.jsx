@@ -25,7 +25,7 @@ const HomePage = () => {
       <div className="homePage__body">
         <img
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-          alt="homePage-body-logo"
+          alt="homePage-logo"
         />
         <div className="homePage__inputContainer">
           <Search />

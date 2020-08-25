@@ -3,8 +3,6 @@ import { API_KEY } from "../utils/keys";
 
 const CONTEXT_KEY = "7f81bf38fcf845031";
 
-// https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CONTEXT_KEY}&q=${searchTerm}
-
 const useGoogleSearch = (searchTerm) => {
     const [data, setData] = useState(null);
 

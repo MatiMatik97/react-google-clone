@@ -1,0 +1,39 @@
+.searchPage__headerOptions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: gray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 10px;
+    transition: all 200ms ease-in-out;
+}
+
+.searchPage__headerOptionsLeft, .searchPage__headerOptionsRight {
+    display: flex;
+}
+
+.searchPage__headerOptions a, .searchPage__headerOptionsRight a {
+    text-decoration: none;
+    color: gray;
+}
+
+.searchPage__headerOptionsRight {
+    margin-left: 80px;
+}
+
+.searchPage__headerOption {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    transition: filter 200ms ease-in-out;
+}
+
+.searchPage__headerOption:hover {
+    filter: brightness(120%);
+}
+
+.searchPage__headerOption p {
+    margin-left: 5px;
+}

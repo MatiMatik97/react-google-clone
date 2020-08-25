@@ -1,0 +1,47 @@
+.searchPage__results {
+    max-width: 650px;
+    margin: 20px 0px 100px 230px;
+}
+
+.searchPage__resultsCount {
+    color: gray;
+}
+
+.searchPage__result {
+    margin-top: 20px;
+}
+
+.searchPage__resultContainer {
+    display: flex;
+    align-items: center;
+}
+
+.searchPage__resultImage {
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.searchPage__resultLink {
+    margin-top: -3px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+.searchPage__resultTitle {
+    text-decoration: none;
+    font-size: 12px;
+    color: blue;
+}
+
+.searchPage__resultTitle:visited {
+    color: purple;
+}
+
+.searchPage__resultLink:hover, .searchPage__resultTitle:hover {
+    text-decoration: underline;
+}
+
+.searchPage__resultSnippet {
+    font-size: 14px;
+}
