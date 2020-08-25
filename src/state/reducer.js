@@ -1,7 +1,7 @@
 import { actionTypes } from './actions'
 
 export const initialState = {
-    searchTerm: null
+    searchTerm: ""
 };
 
 const reducer = (state, action) => {

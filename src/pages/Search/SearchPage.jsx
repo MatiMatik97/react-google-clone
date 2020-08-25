@@ -27,7 +27,7 @@ const SearchPage = () => {
 
         <div className="searchPage__headerBody">
           <div className="searchPage__headerTop">
-            <Search hideButtons />
+            <Search hideButtons searchTerm={searchTerm} />
 
             <div className="searchPage__headerIcons">
               <AppsIcon />

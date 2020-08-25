@@ -7,10 +7,9 @@ import { useHistory } from "react-router-dom";
 import { useStateValue } from "../../state/provider";
 import { setSearchTerm } from "../../state/actions";
 
-const Search = ({ hideButtons = false }) => {
+const Search = ({ hideButtons = false, searchTerm = "" }) => {
   const [, dispatch] = useStateValue();
-
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState(searchTerm);
   const history = useHistory();
   const buttonClassName = hideButtons ? "search__buttonHidden" : "";
 
@@ -26,7 +25,11 @@ const Search = ({ hideButtons = false }) => {
     <form className="search">
       <div className="search__input">
         <SearchIcon className="search__inputIcon" />
-        <input value={input} onChange={(e) => setInput(e.target.value)} />
+        <input
+          id="search__inputField"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+        />
         <MicIcon />
       </div>
 

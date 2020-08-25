@@ -11,7 +11,7 @@ const App = () => {
         <Switch>
           {/* SEARCH PAGE */}
           <Route path="/search">
-            <SearchPage/>
+            <SearchPage />
           </Route>
           {/* HOME PAGE */}
           <Route path="/">
